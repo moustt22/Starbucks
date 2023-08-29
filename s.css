@@ -1,0 +1,136 @@
+body{
+    margin: 20px 20px 0 20px;
+}
+
+.logo{
+    height: 100px;
+    position: relative;
+}
+
+.nav{
+    list-style: none;
+    display:flex;
+    gap: 100px;
+    justify-content: center;
+    position: absolute;
+    left: 200px;
+    top: 60px;
+    color: green;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+a:visited{
+    color: green;
+    
+}
+
+.flex{
+    display: flex;
+}
+
+.swr{
+    float: left;
+    margin: 30px 30px 0 30px;
+
+}
+
+.cups{
+    height: 300px;
+    float: left;
+    padding-bottom: 20px;
+}
+
+.s{
+    float: right;
+
+}
+
+.s img{
+    height: 200px;
+    float: left;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    margin: 30px 30px 0 30px;
+}
+
+p{
+    font-size: 18px;
+}
+
+.klma{
+    color: green;
+}
+
+.talt{
+    padding-top: 20px;
+    margin: 30px 30px 0 30px;
+    text-align: justify;
+    float: left;
+}
+
+.talt img{
+    height: 250px;
+    
+}
+
+.tane d{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.q{
+    padding-top: 20px;
+    margin: 30px 30px 0 30px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+h2{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+h3{
+    font-size: 20px;
+}
+
+footer{
+    float: right;
+    font-size: 18px;
+    padding-bottom: 20px;
+
+}
+
+
+
+@media (max-width:1000px){
+    
+    .nav{
+        flex-shrink: 1;
+        position: absolute;
+        left: 140px;
+        gap:20px;
+        
+    
+    }
+    .flex{
+        flex-direction: column;
+        height: 100%;
+    }
+    .cups{
+        width: 400px;
+
+        padding-right:50px;
+    }
+    .talt{
+        flex-direction: column;
+    }
+
+    .talts{
+        width: 400px;
+    }
+    
+}
